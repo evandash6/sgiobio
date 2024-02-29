@@ -1,0 +1,36 @@
+CRITICAL - 2024-02-29 04:16:39 --> ErrorException: Undefined array key 1
+in VENDORPATH/lablnet/encryption/src/Adapter/OpenSslEncryption.php on line 91.
+ 1 VENDORPATH/lablnet/encryption/src/Adapter/OpenSslEncryption.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', '/Users/brunolamat/Documents/Sites/sgibiodiversidad/vendor/lablnet/encryption/src/Adapter/OpenSslEncryption.php', 91)
+ 2 VENDORPATH/lablnet/encryption/src/Encryption.php(119): Lablnet\Adapter\OpenSslEncryption->decrypt('Šf z')
+ 3 APPPATH/Controllers/Registros.php(47): Lablnet\Encryption->decrypt('images')
+ 4 APPPATH/Controllers/Registros.php(211): App\Controllers\Registros->desencriptar('images')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Registros->edicion('images', 'photodune-174908-rocking-the-night-away-xs.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registros))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 04:16:40 --> ErrorException: Undefined array key 1
+in VENDORPATH/lablnet/encryption/src/Adapter/OpenSslEncryption.php on line 91.
+ 1 VENDORPATH/lablnet/encryption/src/Adapter/OpenSslEncryption.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', '/Users/brunolamat/Documents/Sites/sgibiodiversidad/vendor/lablnet/encryption/src/Adapter/OpenSslEncryption.php', 91)
+ 2 VENDORPATH/lablnet/encryption/src/Encryption.php(119): Lablnet\Adapter\OpenSslEncryption->decrypt('Šf z')
+ 3 APPPATH/Controllers/Registros.php(47): Lablnet\Encryption->decrypt('images')
+ 4 APPPATH/Controllers/Registros.php(211): App\Controllers\Registros->desencriptar('images')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Registros->edicion('images', 'photodune-287182-blah-blah-blah-yellow-road-sign-xs.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registros))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 04:16:41 --> ErrorException: Undefined array key 1
+in VENDORPATH/lablnet/encryption/src/Adapter/OpenSslEncryption.php on line 91.
+ 1 VENDORPATH/lablnet/encryption/src/Adapter/OpenSslEncryption.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', '/Users/brunolamat/Documents/Sites/sgibiodiversidad/vendor/lablnet/encryption/src/Adapter/OpenSslEncryption.php', 91)
+ 2 VENDORPATH/lablnet/encryption/src/Encryption.php(119): Lablnet\Adapter\OpenSslEncryption->decrypt('Šf z')
+ 3 APPPATH/Controllers/Registros.php(47): Lablnet\Encryption->decrypt('images')
+ 4 APPPATH/Controllers/Registros.php(211): App\Controllers\Registros->desencriptar('images')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Registros->edicion('images', 'photodune-460760-colors-xs.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registros))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 05:04:56 --> Error: Cannot use object of type stdClass as array
+in APPPATH/Controllers/Registros.php on line 271.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Registros->save_edicion()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registros))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
